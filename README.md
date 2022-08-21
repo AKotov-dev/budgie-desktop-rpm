@@ -10,3 +10,5 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Alt>Shift
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Shift>Alt_L']"
 ``` 
 The `themes` folder contains `ChromeOS` theme packages + `Windows-10` icons/cursors.
+
+![](https://github.com/AKotov-dev/budgie-desktop-rpm/blob/main/ScreenShot.png)
