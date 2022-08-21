@@ -17,4 +17,4 @@ Archive `budgie-settings.tar.gz` contains a GUI for quick DE configuration. Just
   
 **Note:** I use it on my home computer and maybe it will be useful for someone as well.  
   
-Live Flash drive `MgaRemix-9-Budgie` (RU/EN): https://cloud.mail.ru/public/oTYe/uwUio2x7f
+**Sample:** Live Flash drive `MgaRemix-9-Budgie` (RU/EN): https://cloud.mail.ru/public/oTYe/uwUio2x7f
