@@ -1,0 +1,69 @@
+[NAME]
+name=windows-10-icons-theme
+
+[VERSION]
+version=0.1
+
+[RELEASE]
+release=0.mrx9
+
+[GROUP]
+group=User Interface/X
+
+[DESCRIPTION]
+0=Windows-10-icons-theme
+1=...
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2020
+
+[SUMMARY]
+summary=Windows 10 icons theme
+
+[URLCOPY]
+urlcopy=https://cloud.mail.ru/public/5kma/573FjdpNE
+
+[LICENSE]
+license=GPLv3+
+
+[DEPS]
+deps=
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=1
+
+[SIGN]
+sign=0
+
+[DEB]
+deb=0
+
+[FILES]
+0=/usr/share/icons/Windows-10-Icons/
+1=/usr/share/icons/Windows-10-Cursors/
+2=/usr/share/doc/windows-10-icons-theme/
+
+[URL32]
+url32=https://cloud.mail.ru/public/5kma/573FjdpNE
+
+[URL64]
+url64=
+
+[PROGRAMNAME]
+programname=Windows 10 icons theme
+
+[DEVTOOL]
+devtool=none
+
+[TOOLVERSION]
+toolversion=none
+
+[INFO]
+0=Windows 10 icons theme
