@@ -14,4 +14,5 @@ The `themes` folder contains `ChromeOS` theme packages + `Windows-10` icons/curs
 ![](https://github.com/AKotov-dev/budgie-desktop-rpm/blob/main/ScreenShot.png)  
 
 Archive `budgie-settings.tar.gz` contains a GUI for quick DE configuration. Just unzip the archive and run the `budgie-settings` file from a regular user.  
+  
 **Note:** I use it on my home computer and maybe it will be useful for someone as well.
