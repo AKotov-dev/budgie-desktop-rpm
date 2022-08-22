@@ -11,7 +11,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<
 ``` 
 The `themes` folder contains `ChromeOS` theme packages + `Windows-10` icons/cursors.
 
-![](https://github.com/AKotov-dev/budgie-desktop-rpm/blob/main/ScreenShot.png)  
+![](https://github.com/AKotov-dev/budgie-desktop-rpm/blob/main/ScreenShot2.png)  
 
 Archive `budgie-settings.tar.gz` contains a GUI for quick DE configuration. Just unzip the archive and run the `budgie_settings` file from a regular user.  
   
