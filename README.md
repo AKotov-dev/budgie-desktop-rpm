@@ -15,6 +15,4 @@ The `themes` folder contains `ChromeOS` theme packages + `Windows-10` icons/curs
 
 Archive `budgie-settings.tar.gz` contains a GUI for quick DE configuration. Just unzip the archive and run the `budgie_settings` file from a regular user.  
   
-**Note:** I use it on my home computer and maybe it will be useful for someone as well.  
-  
-**Sample:** Live USB Flash drive `MgaRemix-9-Budgie` (RU): https://cloud.mail.ru/public/oTYe/uwUio2x7f
+**Note:** I use it on my home computer and maybe it will be useful for someone as well.
