@@ -1,0 +1,86 @@
+[NAME]
+name=chromeos-theme
+
+[VERSION]
+version=2021.08.18
+
+[RELEASE]
+release=0.mrx9
+
+[GROUP]
+group=User Interface/X
+
+[DESCRIPTION]
+0=ChromeOS GTK3 Theme
+1=Source (link to git-repo or to original if based on someone elses unmodified work): https://github.com/vinceliuice/ChromeOS-theme
+2=...
+3=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2020
+
+[SUMMARY]
+summary=ChromeOS theme for GTK-3
+
+[URLCOPY]
+urlcopy=https://github.com/AKotov-dev/budgie-desktop-rpm/tree/main/themes
+
+[LICENSE]
+license=GPLv3+
+
+[DEPS]
+deps=gtk2-murrine-engine
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=1
+
+[SIGN]
+sign=0
+
+[DEB]
+deb=0
+
+[FILES]
+0=/usr/share/themes/ChromeOS/
+1=/usr/share/themes/ChromeOS-compact/
+2=/usr/share/themes/ChromeOS-dark/
+3=/usr/share/themes/ChromeOS-dark-compact/
+4=/usr/share/themes/ChromeOS-light/
+5=/usr/share/themes/ChromeOS-light-compact/
+6=/usr/share/doc/chromeos-theme/
+
+[URL32]
+url32=https://www.gnome-look.org/p/1335019
+
+[URL64]
+url64=
+
+[PROGRAMNAME]
+programname=ChromeOS Theme
+
+[DEVTOOL]
+devtool=none
+
+[TOOLVERSION]
+toolversion=none
+
+[INFO]
+0=ChromeOS is a Material Design theme for GNOME/GTK based desktop environments. Based on nana-4 -- materia-theme
+1=
+2=Requirements
+3=GTK >=3.20
+4=gnome-themes-extra (or gnome-themes-standard)
+5=Murrine engine — The package name depends on the distro.
+6=gtk-engine-murrine on Arch Linux
+7=gtk-murrine-engine on Fedora
+8=gtk2-engine-murrine on openSUSE
+9=gtk2-engines-murrine on Debian, Ubuntu, etc.
+10=bc — build dependency
+11=
+12=URL: https://www.gnome-look.org/p/1335019/
