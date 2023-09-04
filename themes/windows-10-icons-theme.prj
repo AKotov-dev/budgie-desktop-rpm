@@ -2,13 +2,13 @@
 name=windows-10-icons-theme
 
 [VERSION]
-version=0.1
+version=0.2
 
 [RELEASE]
 release=0.mrx9
 
 [GROUP]
-group=User Interface/X
+group=Monitoring
 
 [DESCRIPTION]
 0=Windows-10-icons-theme
@@ -25,7 +25,7 @@ vendor=alex_q_2000 (C) 2020
 summary=Windows 10 icons theme
 
 [URLCOPY]
-urlcopy=https://cloud.mail.ru/public/5kma/573FjdpNE
+urlcopy=https://github.com/AKotov-dev/budgie-desktop-rpm
 
 [LICENSE]
 license=GPLv3+
@@ -39,9 +39,6 @@ meta=0
 [NOARCH]
 noarch=1
 
-[SIGN]
-sign=0
-
 [DEB]
 deb=0
 
@@ -51,10 +48,7 @@ deb=0
 2=/usr/share/doc/windows-10-icons-theme/
 
 [URL32]
-url32=https://cloud.mail.ru/public/5kma/573FjdpNE
-
-[URL64]
-url64=
+url32=https://github.com/AKotov-dev/budgie-desktop-rpm
 
 [PROGRAMNAME]
 programname=Windows 10 icons theme
@@ -67,3 +61,6 @@ toolversion=none
 
 [INFO]
 0=Windows 10 icons theme
+1=
+2=v0.2
+3=+ NM (vpn) support
