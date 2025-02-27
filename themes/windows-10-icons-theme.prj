@@ -2,7 +2,7 @@
 name=windows-10-icons-theme
 
 [VERSION]
-version=0.2
+version=0.3
 
 [RELEASE]
 release=0.mrx9
@@ -62,5 +62,8 @@ toolversion=none
 [INFO]
 0=Windows 10 icons theme
 1=
-2=v0.2
-3=+ NM (vpn) support
+2=v0.3
+3=+ IE icons for Chromium
+4=
+5=v0.2
+6=+ NM (vpn) support
