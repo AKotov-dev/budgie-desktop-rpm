@@ -2,13 +2,13 @@
 name=windows-10-icons-theme
 
 [VERSION]
-version=0.3
+version=0.4
 
 [RELEASE]
-release=0.mrx9
+release=0.mrx10
 
 [GROUP]
-group=Monitoring
+group=Accessibility
 
 [DESCRIPTION]
 0=Windows-10-icons-theme
@@ -19,7 +19,7 @@ group=Monitoring
 maintainer=Alex Kotov
 
 [VENDOR]
-vendor=alex_q_2000 (C) 2020
+vendor=alex_q_2000 (C) 2026
 
 [SUMMARY]
 summary=Windows 10 icons theme
@@ -28,7 +28,7 @@ summary=Windows 10 icons theme
 urlcopy=https://github.com/AKotov-dev/budgie-desktop-rpm
 
 [LICENSE]
-license=GPLv3+
+license=GPLv3
 
 [DEPS]
 deps=
@@ -62,8 +62,12 @@ toolversion=none
 [INFO]
 0=Windows 10 icons theme
 1=
-2=v0.3
-3=+ IE icons for Chromium
-4=
-5=v0.2
-6=+ NM (vpn) support
+2=v0.4
+3=+ Added nemo-xsi-icons
+4=+ Added application-x-mswinurl icons
+5=
+6=v0.3
+7=+ IE icons for Chromium
+8=
+9=v0.2
+10=+ NM (vpn) support
