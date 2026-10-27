@@ -2,7 +2,7 @@
 Budgie Desktop is a familiar, modern desktop environment.  
 Project URL: https://github.com/BuddiesOfBudgie/budgie-desktop
 
-These rpm packages is intended for Mageia-10 Linux. Unlike the original, this build uses the `Nemo` file manager, which allows you to fully work with the desktop environment. RPM packages are contained in the `budgie-desktop-*.tar.gz` in the folder `./RPMS/`.
+These rpm packages is intended for Mageia-10 Linux. Unlike the original, this build uses the `Nemo` file manager, which allows you to fully work with the desktop environment. RPM packages are contained in the `budgie-x.x.x-mageia-*.tar.gz` in the folder `./RPMS/`.
 
 ## Budgie 10.10.3 — проблемы и недостатки
 
