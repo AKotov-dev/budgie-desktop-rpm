@@ -2,15 +2,25 @@
 Budgie Desktop is a familiar, modern desktop environment.  
 Project URL: https://github.com/BuddiesOfBudgie/budgie-desktop
 
-These rpm packages is intended for Mageia-9 Linux. Unlike the original, this build uses the `Nemo` file manager, which allows you to fully work with the desktop environment. RPM packages are contained in the `rpmbuild.tar.gz` in the folder `./RPMS/x86_64`.
+These rpm packages is intended for Mageia-10 Linux. Unlike the original, this build uses the `Nemo` file manager, which allows you to fully work with the desktop environment. RPM packages are contained in the `budgie-desktop-*.tar.gz` in the folder `./RPMS/`.
 
-To set the language switch `<Alt_L>Shift` in the loaded system, you need to execute this code (regular user):
-```
-gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Alt>Shift_L']"
-gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Shift>Alt_L']"
-``` 
-The `themes` folder contains `ChromeOS` theme packages + `Windows-10` icons/cursors.
+## Budgie 10.10.3 — проблемы и недостатки
 
-![](https://github.com/AKotov-dev/budgie-desktop-rpm/blob/main/ScreenShot2.png)  
+В ходе тестирования Budgie 10.10.3 в Mageia 10 с Wayland/labwc обнаружены следующие проблемы:
 
-Archive `budgie-settings.tar.gz` contains a GUI for quick DE configuration. Just unzip the archive and run the `budgie_settings` file from a regular user.
+1. **Неполная стилизация GTK3/GTK4.** Некорректно оформляются главные и контекстные меню, наблюдаются проблемы со шрифтами.
+2. **SDDM.** Из протестированных менеджеров входа только SDDM работает с Wayland, но он не запоминает имя пользователя.
+3. **Запуск привилегированных приложений.** Для корректной работы приложений, запускаемых через `pkexec`, требуются дополнительные настройки и обходные решения.
+4. **Проблемы с окнами GTK и Qt.** Некоторые приложения без дополнительных настроек некорректно отображают или раскрывают окна.
+5. **Проблемы с порталами.** GTK/GNOME-приложения могут периодически зависать примерно на 30 секунд.
+6. **Буфер обмена.** В отдельных приложениях наблюдаются проблемы с копированием, вставкой и перетаскиванием данных, например в Lazarus-GTK и VirtualBox.
+7. **Пустая панель после установки.** Вместо ожидаемого набора элементов доступен только Raven. Для добавления и настройки виджетов приходится запускать `budgie-desktop-settings` вручную.
+8. **Другие недоработки.** В процессе использования обнаруживаются и дополнительные проблемы.
+
+С учётом выявленных недостатков **переход с Budgie 10.9.4 на Budgie 10.10.3 в Mageia 10 пока нецелесообразен**.
+
+### Для энтузиастов
+
+Готовые пакеты Budgie 10.10.3 и сопутствующих компонентов, отсутствующих в официальных репозиториях Mageia 10, [доступны здесь](https://drive.google.com/drive/folders/1szmea1yW8YdkTvqvqAq8kcMbRE9OHx-1?usp=sharing).
+
+**Внимание:** сборка экспериментальная. После установки могут потребоваться дополнительные настройки системы и ручное устранение отдельных проблем. Рекомендуется только пользователям, готовым самостоятельно разбираться с возможными неисправностями.
