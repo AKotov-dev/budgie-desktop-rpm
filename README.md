@@ -17,7 +17,7 @@ These rpm packages is intended for Mageia-10 Linux. Unlike the original, this bu
 7. **Пустая панель после установки.** Вместо ожидаемого набора элементов доступен только Raven. Для добавления и настройки виджетов приходится запускать `budgie-desktop-settings` вручную.
 8. **Другие недоработки.** В процессе использования обнаруживаются и дополнительные проблемы.
 
-С учётом выявленных недостатков **переход с Budgie-Desktop-10.9.4 на Budgie-Desktop-10.10.3 в MgaRemix-Proserpina пока нецелесообразен**.
+С учётом выявленных недостатков **переход с Budgie-Desktop-10.9.4 на Budgie-Desktop-10.10.3 в [MgaRemix-Proserpina](https://github.com/AKotov-dev/MgaRemix-Proserpina) пока нецелесообразен**.
 
 ### Для энтузиастов
 
